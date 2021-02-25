@@ -6,7 +6,7 @@ const aqicnToken = '828e6bde350e05c3775db06616446256c0e2a053'
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
 /*
 	[Script]
-	AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path= https://raw.githubusercontent.com/wuming-xiaozu/Loon/master/AQI-US.js
+	AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=https://raw.githubusercontent.com/wuming-xiaozu/Loon/master/AQI-US.js
 
 	[MITM]
 	hostname = weather-data.apple.com
