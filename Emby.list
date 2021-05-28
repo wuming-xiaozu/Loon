@@ -54,11 +54,11 @@ DOMAIN,hinet.jmsooo.com
 DOMAIN,cf1.jmsooo.com
 
 # > 流媒体pornemby服务器
-DOMAIN,aga.pornemby.club
+DOMAIN-suffix,pornemby.club
 
 # > odyssey's emby
-DOMAIN,shogouki.youremby.gq
-DOMAIN,aga.youremby.gq
+
+DOMAIN-suffix,Odysseyplus.site
 
 # > Pornemby emby
 DOMAIN,pornemby.club
