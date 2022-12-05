@@ -15,3 +15,6 @@ DOMAIN-SUFFIX,emby.wtf
 #> MisakaF emby
 
 DOMAIN-KEYWORD,misakaf
+
+#> nebula emby
+DOMAIN-SUFFIX,nebula-emby.com
