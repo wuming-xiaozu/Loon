@@ -24,5 +24,4 @@ DOMAIN-SUFFIX,nebula-emby.com
 DOMAIN-KEYWORD,ccemby
 #> Mulgore emby
 
-#>IP-CIDR,202.61.255.248/24
-
+DOMAIN-SUFFIX,mulgore.net
