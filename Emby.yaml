@@ -1,27 +1,11 @@
 
-Payload:
-# > 流媒体emby-jmsooo体验服
- - DOMAIN-SUFFIX,jmsooo.com
- - DOMAIN-SUFFIX,emby.pro
-
-# > odyssey's emby
-
- - DOMAIN-SUFFIX,odysseyplus.site
-
-
-#> 终点站 emby
-
- - DOMAIN-SUFFIX,emby.wtf
-
-#> MisakaF emby
-
- - DOMAIN-KEYWORD,misakaf
-
-#> nebula emby
- - DOMAIN-SUFFIX,nebula-emby.com
-
-#> CC emby
- - DOMAIN-KEYWORD,ccemby
-#> Mulgore emby
-
- - DOMAIN-SUFFIX,mulgore.net
+payload:
+  - DOMAIN-SUFFIX,jmsooo.com
+  - DOMAIN-SUFFIX,emby.pro
+  - DOMAIN-SUFFIX,odysseyplus.site
+  - DOMAIN-SUFFIX,emby.wtf
+  - DOMAIN-KEYWORD,misakaf
+  - DOMAIN-SUFFIX,nebula-emby.com
+  - DOMAIN-KEYWORD,ccemby
+  - DOMAIN-SUFFIX,mulgore.net
+  
