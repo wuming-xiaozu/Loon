@@ -1,14 +1,14 @@
 playload:
-- DOMAIN-KEYWORD,pincong
-- DOMAIN-KEYWORD,ntdtv
-- DOMAIN-KEYWORD,epochtimes
-- DOMAIN-KEYWORD,rfa
-- DOMAIN-KEYWORD,rfi
-- DOMAIN-KEYWORD,program-think
-- DOMAIN-KEYWORD,voa
-- DOMAIN-SUFFIX,dw.com
-- DOMAIN-SUFFIX,mingjingnews.com
-- DOMAIN-KEYWORD,boxun
-- DOMAIN-SUFFIX,bnn.co
-- DOMAIN-SUFFIX,bowenpress.com
-- DOMAIN-KEYWORD,chinadigitaltimes
+  - DOMAIN-KEYWORD,pincong
+  - DOMAIN-KEYWORD,ntdtv
+  - DOMAIN-KEYWORD,epochtimes
+  - DOMAIN-KEYWORD,rfa
+  - DOMAIN-KEYWORD,rfi
+  - DOMAIN-KEYWORD,program-think
+  - DOMAIN-KEYWORD,voa
+  - DOMAIN-SUFFIX,dw.com
+  - DOMAIN-SUFFIX,mingjingnews.com
+  - DOMAIN-KEYWORD,boxun
+  - DOMAIN-SUFFIX,bnn.co
+  - DOMAIN-SUFFIX,bowenpress.com
+  - DOMAIN-KEYWORD,chinadigitaltimes
