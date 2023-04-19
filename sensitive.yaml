@@ -1,4 +1,4 @@
-playload:
+payload:
   - DOMAIN-KEYWORD,pincong
   - DOMAIN-KEYWORD,ntdtv
   - DOMAIN-KEYWORD,epochtimes
@@ -12,3 +12,5 @@ playload:
   - DOMAIN-SUFFIX,bnn.co
   - DOMAIN-SUFFIX,bowenpress.com
   - DOMAIN-KEYWORD,chinadigitaltimes
+
+  
