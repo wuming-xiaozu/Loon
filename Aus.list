@@ -1,0 +1,78 @@
+# 🇦🇺 AU Streaming Bundle (AU TV + Paid Sports + SBS On Demand)
+# Updated with precise CDN, Location Intelligence & API endpoints
+
+# > ABC (Australian Broadcasting Corporation / ABC iview)
+DOMAIN-SUFFIX,abc.net.au
+DOMAIN-SUFFIX,abc-cdn.net.au
+DOMAIN-SUFFIX,abc-iview-mediapackagestreams-1.akamaized.net
+DOMAIN-SUFFIX,abc-iview-mediapackagestreams-2.akamaized.net
+DOMAIN-SUFFIX,iview-vod-hls.akamaized.net
+
+# > SBS / SBS On Demand
+DOMAIN-SUFFIX,sbs.com.au
+DOMAIN-SUFFIX,sbsondemand.com.au
+DOMAIN,help.sbs.com.au
+DOMAIN-SUFFIX,videocdn-sbs.akamaized.net
+DOMAIN-SUFFIX,sbsvoddai-vh.akamaihd.net
+DOMAIN-SUFFIX,sbsvodns-vh.akamaihd.net
+DOMAIN-SUFFIX,sbs-vod-prod-01.akamaized.net
+DOMAIN-SUFFIX,sbs-live.akamaized.net
+DOMAIN-SUFFIX,sbs-live-dai.akamaized.net
+DOMAIN-SUFFIX,sbs-live-prod-01.akamaized.net
+
+# > 7plus / Seven Network
+DOMAIN-SUFFIX,7plus.com.au
+DOMAIN-SUFFIX,7now.com.au
+DOMAIN-SUFFIX,seven.com.au
+DOMAIN-SUFFIX,support.7plus.com.au
+DOMAIN-SUFFIX,about.7plus.com.au
+DOMAIN-SUFFIX,swm.digital
+DOMAIN-SUFFIX,swmdigital.com.au
+DOMAIN-SUFFIX,7vodcloud.io
+DOMAIN-SUFFIX,7livecloud.io
+DOMAIN-SUFFIX,cas.cdn.7livecloud.io
+DOMAIN-SUFFIX,npc.cdn.7livecloud.io
+DOMAIN-SUFFIX,stingray.cdn.7livecloud.io
+DOMAIN-SUFFIX,tbs.cdn.7livecloud.io
+DOMAIN,mpl3-live-sevennetwork.akamaized.net
+DOMAIN,mplk-live-sevennetwork.akamaized.net
+DOMAIN,7plus-sevennetwork.akamaized.net
+DOMAIN,live-sevennetwork.akamaized.net
+DOMAIN,npc-live-sevennetwork.akamaized.net
+# 包含关键词以捕获未来可能变动的七网动态 CDN 节点
+DOMAIN-KEYWORD,sevennetwork.akamaized
+
+# > 9Now / Nine Network
+DOMAIN-SUFFIX,9now.com.au
+DOMAIN-SUFFIX,nine.com.au
+DOMAIN-SUFFIX,mi9.com.au
+DOMAIN-SUFFIX,nineentertainment.com.au
+DOMAIN-SUFFIX,p-9now.akamaized.net
+
+# > 10play / Network Ten
+DOMAIN-SUFFIX,10play.com.au
+DOMAIN-SUFFIX,tenplay.com.au
+DOMAIN-SUFFIX,networkten.com.au
+
+# > Paid/Sports Platforms (Kayo, Binge, Stan, Optus)
+DOMAIN-SUFFIX,kayosports.com.au
+DOMAIN-SUFFIX,binge.com.au
+DOMAIN-SUFFIX,streamotion.com.au
+DOMAIN-SUFFIX,stan.com.au
+DOMAIN-SUFFIX,stan.video
+DOMAIN-SUFFIX,optus.com.au
+DOMAIN-SUFFIX,optussport.tv
+
+# > Analytics / DRM / Ads / Location (Crucial for playback)
+DOMAIN-SUFFIX,oztam.com.au
+DOMAIN-SUFFIX,yospace.com
+DOMAIN-SUFFIX,vtwenty.com
+DOMAIN-SUFFIX,litix.io
+DOMAIN-SUFFIX,masx.io
+DOMAIN-SUFFIX,device.marketingcloudapis.com
+DOMAIN-SUFFIX,landmarksid.com
+
+# > Login & Playback Chain Common
+DOMAIN-SUFFIX,gigya.com
+DOMAIN-SUFFIX,brightcove.com
+DOMAIN-SUFFIX,boltdns.net
