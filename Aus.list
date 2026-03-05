@@ -1,45 +1,43 @@
-# 🇦🇺 AU Streaming Bundle (AU TV + Paid Sports + SBS On Demand)
-# Updated with precise CDN, Location Intelligence & API endpoints
+# ===== 🇦🇺 AU Streaming Bundle (优化版) =====
+# 覆盖：ABC iView/Listen、SBS On Demand/Audio、7plus、9Now、10Play、付费平台
+# 精简冗余项，补充遗漏域名，修正范围过大的规则
 
-# > ABC (Australian Broadcasting Corporation / ABC iview)
+# > ABC (iView 点播+直播 / Listen 音频+播客)
 DOMAIN-SUFFIX,abc.net.au
-DOMAIN-SUFFIX,abc-cdn.net.au
+DOMAIN-SUFFIX,abc.com.au
 DOMAIN-SUFFIX,abc-iview-mediapackagestreams-1.akamaized.net
 DOMAIN-SUFFIX,abc-iview-mediapackagestreams-2.akamaized.net
+DOMAIN-SUFFIX,abc-iview-mediapackagestreams-3.akamaized.net
+DOMAIN-SUFFIX,abc-iview-mediapackagestreams-4.akamaized.net
 DOMAIN-SUFFIX,iview-vod-hls.akamaized.net
+# ABC Listen 音频直播 (MediaHub)
+DOMAIN-SUFFIX,mediahubaustralia.com
 
-# > SBS / SBS On Demand
+# > SBS (On Demand 点播+直播 / SBS Audio)
 DOMAIN-SUFFIX,sbs.com.au
-DOMAIN-SUFFIX,sbsondemand.com.au
-DOMAIN,help.sbs.com.au
+DOMAIN-SUFFIX,sbs-vod-prod-01.akamaized.net
+DOMAIN-SUFFIX,sbs-vod-prod-02.akamaized.net
+DOMAIN-SUFFIX,sbs-vod-dai-prod-01.akamaized.net
 DOMAIN-SUFFIX,videocdn-sbs.akamaized.net
 DOMAIN-SUFFIX,sbsvoddai-vh.akamaihd.net
 DOMAIN-SUFFIX,sbsvodns-vh.akamaihd.net
-DOMAIN-SUFFIX,sbs-vod-prod-01.akamaized.net
+# SBS 直播
 DOMAIN-SUFFIX,sbs-live.akamaized.net
 DOMAIN-SUFFIX,sbs-live-dai.akamaized.net
 DOMAIN-SUFFIX,sbs-live-prod-01.akamaized.net
 
 # > 7plus / Seven Network
 DOMAIN-SUFFIX,7plus.com.au
-DOMAIN-SUFFIX,7now.com.au
 DOMAIN-SUFFIX,seven.com.au
-DOMAIN-SUFFIX,support.7plus.com.au
-DOMAIN-SUFFIX,about.7plus.com.au
 DOMAIN-SUFFIX,swm.digital
 DOMAIN-SUFFIX,swmdigital.com.au
 DOMAIN-SUFFIX,7vodcloud.io
 DOMAIN-SUFFIX,7livecloud.io
-DOMAIN-SUFFIX,cas.cdn.7livecloud.io
-DOMAIN-SUFFIX,npc.cdn.7livecloud.io
-DOMAIN-SUFFIX,stingray.cdn.7livecloud.io
-DOMAIN-SUFFIX,tbs.cdn.7livecloud.io
 DOMAIN,mpl3-live-sevennetwork.akamaized.net
 DOMAIN,mplk-live-sevennetwork.akamaized.net
 DOMAIN,7plus-sevennetwork.akamaized.net
 DOMAIN,live-sevennetwork.akamaized.net
 DOMAIN,npc-live-sevennetwork.akamaized.net
-# 包含关键词以捕获未来可能变动的七网动态 CDN 节点
 DOMAIN-KEYWORD,sevennetwork.akamaized
 
 # > 9Now / Nine Network
@@ -49,30 +47,27 @@ DOMAIN-SUFFIX,mi9.com.au
 DOMAIN-SUFFIX,nineentertainment.com.au
 DOMAIN-SUFFIX,p-9now.akamaized.net
 
-# > 10play / Network Ten
+# > 10Play / Network Ten
 DOMAIN-SUFFIX,10play.com.au
 DOMAIN-SUFFIX,tenplay.com.au
 DOMAIN-SUFFIX,networkten.com.au
 
-# > Paid/Sports Platforms (Kayo, Binge, Stan, Optus)
+# > 付费/体育平台 (Kayo, Binge, Stan, Optus Sport)
 DOMAIN-SUFFIX,kayosports.com.au
 DOMAIN-SUFFIX,binge.com.au
 DOMAIN-SUFFIX,streamotion.com.au
 DOMAIN-SUFFIX,stan.com.au
 DOMAIN-SUFFIX,stan.video
-DOMAIN-SUFFIX,optus.com.au
 DOMAIN-SUFFIX,optussport.tv
+DOMAIN,sport.optus.com.au
 
-# > Analytics / DRM / Ads / Location (Crucial for playback)
+# > 播放链关键依赖 (SSAI/DRM/分析/收视)
 DOMAIN-SUFFIX,oztam.com.au
 DOMAIN-SUFFIX,yospace.com
-DOMAIN-SUFFIX,vtwenty.com
 DOMAIN-SUFFIX,litix.io
 DOMAIN-SUFFIX,masx.io
-DOMAIN-SUFFIX,device.marketingcloudapis.com
+DOMAIN-SUFFIX,boltdns.net
 DOMAIN-SUFFIX,landmarksid.com
 
-# > Login & Playback Chain Common
-DOMAIN-SUFFIX,gigya.com
-DOMAIN-SUFFIX,brightcove.com
-DOMAIN-SUFFIX,boltdns.net
+# > Freeview 电子节目单
+DOMAIN-SUFFIX,freeview.com.au
